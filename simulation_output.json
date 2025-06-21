@@ -1,0 +1,2702 @@
+[
+  {
+    "agent_id": "emp_01",
+    "day": 1,
+    "workload": 7.41,
+    "stress_level": 63.84,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 1,
+    "workload": 7.67,
+    "stress_level": 77.47,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 1,
+    "workload": 4.47,
+    "stress_level": 48.31,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 1,
+    "workload": 8.47,
+    "stress_level": 79.41,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 1,
+    "workload": 7.26,
+    "stress_level": 31.39,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 1,
+    "workload": 5.4,
+    "stress_level": 39.16,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 1,
+    "workload": 4.68,
+    "stress_level": 40.21,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 1,
+    "workload": 6.51,
+    "stress_level": 74.97,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 1,
+    "workload": 8.2,
+    "stress_level": 64.89,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 1,
+    "workload": 7.6,
+    "stress_level": 39.84,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 2,
+    "workload": 8.75,
+    "stress_level": 71.45,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 2,
+    "workload": 9.49,
+    "stress_level": 61.79,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 2,
+    "workload": 7.32,
+    "stress_level": 40.18,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 2,
+    "workload": 8.26,
+    "stress_level": 87.79,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 2,
+    "workload": 7.32,
+    "stress_level": 46.49,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 2,
+    "workload": 9.49,
+    "stress_level": 80.76,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 2,
+    "workload": 7.76,
+    "stress_level": 81.48,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 2,
+    "workload": 4.34,
+    "stress_level": 98.81,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 2,
+    "workload": 7.41,
+    "stress_level": 54.03,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 2,
+    "workload": 7.11,
+    "stress_level": 57.77,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 3,
+    "workload": 6.31,
+    "stress_level": 71.53,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 3,
+    "workload": 7.89,
+    "stress_level": 38.66,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 3,
+    "workload": 9.68,
+    "stress_level": 98.19,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 3,
+    "workload": 9.22,
+    "stress_level": 47.12,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 3,
+    "workload": 4.66,
+    "stress_level": 81.63,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 3,
+    "workload": 9.64,
+    "stress_level": 34.85,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 3,
+    "workload": 9.94,
+    "stress_level": 48.54,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 3,
+    "workload": 9.92,
+    "stress_level": 32.53,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 3,
+    "workload": 9.73,
+    "stress_level": 88.42,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 3,
+    "workload": 4.58,
+    "stress_level": 64.72,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 4,
+    "workload": 4.8,
+    "stress_level": 68.37,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 4,
+    "workload": 5.95,
+    "stress_level": 41.7,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 4,
+    "workload": 7.45,
+    "stress_level": 53.48,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 4,
+    "workload": 5.97,
+    "stress_level": 50.5,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 4,
+    "workload": 4.25,
+    "stress_level": 43.27,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 4,
+    "workload": 9.7,
+    "stress_level": 92.63,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 4,
+    "workload": 7.52,
+    "stress_level": 48.31,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 4,
+    "workload": 5.59,
+    "stress_level": 42.07,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 4,
+    "workload": 5.38,
+    "stress_level": 59.79,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 4,
+    "workload": 7.04,
+    "stress_level": 41.85,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 5,
+    "workload": 5.29,
+    "stress_level": 80.01,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 5,
+    "workload": 8.31,
+    "stress_level": 92.4,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 5,
+    "workload": 9.09,
+    "stress_level": 69.74,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 5,
+    "workload": 5.55,
+    "stress_level": 33.61,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 5,
+    "workload": 6.67,
+    "stress_level": 97.6,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 5,
+    "workload": 7.04,
+    "stress_level": 75.33,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 5,
+    "workload": 5.78,
+    "stress_level": 42.61,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 5,
+    "workload": 5.3,
+    "stress_level": 96.5,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 5,
+    "workload": 8.48,
+    "stress_level": 67.19,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 5,
+    "workload": 5.43,
+    "stress_level": 55.93,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 6,
+    "workload": 4.76,
+    "stress_level": 76.8,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 6,
+    "workload": 4.81,
+    "stress_level": 93.08,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 6,
+    "workload": 8.78,
+    "stress_level": 97.41,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 6,
+    "workload": 9.06,
+    "stress_level": 39.83,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 6,
+    "workload": 8.71,
+    "stress_level": 92.48,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 6,
+    "workload": 8.61,
+    "stress_level": 34.06,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 6,
+    "workload": 8.58,
+    "stress_level": 79.84,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 6,
+    "workload": 6.99,
+    "stress_level": 76.52,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 6,
+    "workload": 4.55,
+    "stress_level": 45.93,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 6,
+    "workload": 7.29,
+    "stress_level": 34.07,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 7,
+    "workload": 7.59,
+    "stress_level": 69.36,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 7,
+    "workload": 8.31,
+    "stress_level": 66.92,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 7,
+    "workload": 8.36,
+    "stress_level": 37.62,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 7,
+    "workload": 5.95,
+    "stress_level": 41.44,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 7,
+    "workload": 7.31,
+    "stress_level": 46.09,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 7,
+    "workload": 7.41,
+    "stress_level": 59.85,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 7,
+    "workload": 5.43,
+    "stress_level": 50.02,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 7,
+    "workload": 8.01,
+    "stress_level": 45.22,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 7,
+    "workload": 7.72,
+    "stress_level": 52.46,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 7,
+    "workload": 4.18,
+    "stress_level": 42.96,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 8,
+    "workload": 5.32,
+    "stress_level": 85.86,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 8,
+    "workload": 4.84,
+    "stress_level": 94.0,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 8,
+    "workload": 7.58,
+    "stress_level": 90.13,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 8,
+    "workload": 4.52,
+    "stress_level": 94.56,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 8,
+    "workload": 4.91,
+    "stress_level": 79.61,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 8,
+    "workload": 9.86,
+    "stress_level": 89.5,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 8,
+    "workload": 8.58,
+    "stress_level": 43.2,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 8,
+    "workload": 7.15,
+    "stress_level": 90.55,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 8,
+    "workload": 6.89,
+    "stress_level": 77.71,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 8,
+    "workload": 9.58,
+    "stress_level": 31.17,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 9,
+    "workload": 10.0,
+    "stress_level": 78.74,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 9,
+    "workload": 4.28,
+    "stress_level": 78.7,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 9,
+    "workload": 8.89,
+    "stress_level": 73.32,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 9,
+    "workload": 5.44,
+    "stress_level": 44.13,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 9,
+    "workload": 6.15,
+    "stress_level": 80.5,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 9,
+    "workload": 6.96,
+    "stress_level": 80.68,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 9,
+    "workload": 9.15,
+    "stress_level": 88.19,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 9,
+    "workload": 5.76,
+    "stress_level": 33.67,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 9,
+    "workload": 5.73,
+    "stress_level": 58.9,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 9,
+    "workload": 8.98,
+    "stress_level": 59.08,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 10,
+    "workload": 8.66,
+    "stress_level": 62.4,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 10,
+    "workload": 8.85,
+    "stress_level": 53.77,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 10,
+    "workload": 6.34,
+    "stress_level": 59.86,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 10,
+    "workload": 7.75,
+    "stress_level": 55.6,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 10,
+    "workload": 6.99,
+    "stress_level": 73.79,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 10,
+    "workload": 5.38,
+    "stress_level": 51.52,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 10,
+    "workload": 9.39,
+    "stress_level": 72.37,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 10,
+    "workload": 6.26,
+    "stress_level": 45.48,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 10,
+    "workload": 6.51,
+    "stress_level": 34.72,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 10,
+    "workload": 6.14,
+    "stress_level": 46.73,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 11,
+    "workload": 7.05,
+    "stress_level": 87.65,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 11,
+    "workload": 9.57,
+    "stress_level": 70.2,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 11,
+    "workload": 8.06,
+    "stress_level": 61.34,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 11,
+    "workload": 5.18,
+    "stress_level": 65.25,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 11,
+    "workload": 6.25,
+    "stress_level": 56.78,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 11,
+    "workload": 4.99,
+    "stress_level": 68.01,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 11,
+    "workload": 8.32,
+    "stress_level": 76.04,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 11,
+    "workload": 5.02,
+    "stress_level": 41.54,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 11,
+    "workload": 5.91,
+    "stress_level": 79.62,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 11,
+    "workload": 4.26,
+    "stress_level": 88.46,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 12,
+    "workload": 5.64,
+    "stress_level": 38.74,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 12,
+    "workload": 5.53,
+    "stress_level": 93.97,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 12,
+    "workload": 5.87,
+    "stress_level": 64.28,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 12,
+    "workload": 6.04,
+    "stress_level": 73.67,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 12,
+    "workload": 8.84,
+    "stress_level": 52.42,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 12,
+    "workload": 9.32,
+    "stress_level": 31.04,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 12,
+    "workload": 5.07,
+    "stress_level": 51.43,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 12,
+    "workload": 8.38,
+    "stress_level": 74.14,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 12,
+    "workload": 4.13,
+    "stress_level": 52.93,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 12,
+    "workload": 7.16,
+    "stress_level": 94.18,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 13,
+    "workload": 6.37,
+    "stress_level": 93.21,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 13,
+    "workload": 9.78,
+    "stress_level": 33.66,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 13,
+    "workload": 6.71,
+    "stress_level": 90.73,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 13,
+    "workload": 4.82,
+    "stress_level": 43.97,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 13,
+    "workload": 8.54,
+    "stress_level": 87.94,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 13,
+    "workload": 4.45,
+    "stress_level": 43.16,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 13,
+    "workload": 4.49,
+    "stress_level": 75.99,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 13,
+    "workload": 8.71,
+    "stress_level": 30.87,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 13,
+    "workload": 4.67,
+    "stress_level": 52.64,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 13,
+    "workload": 4.5,
+    "stress_level": 66.22,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 14,
+    "workload": 4.5,
+    "stress_level": 86.43,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 14,
+    "workload": 7.07,
+    "stress_level": 44.05,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 14,
+    "workload": 7.26,
+    "stress_level": 56.38,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 14,
+    "workload": 6.68,
+    "stress_level": 40.7,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 14,
+    "workload": 6.57,
+    "stress_level": 49.18,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 14,
+    "workload": 6.76,
+    "stress_level": 92.04,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 14,
+    "workload": 5.05,
+    "stress_level": 60.69,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 14,
+    "workload": 4.66,
+    "stress_level": 32.99,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 14,
+    "workload": 9.4,
+    "stress_level": 45.31,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 14,
+    "workload": 9.08,
+    "stress_level": 75.42,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 15,
+    "workload": 9.67,
+    "stress_level": 63.53,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 15,
+    "workload": 8.06,
+    "stress_level": 88.4,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 15,
+    "workload": 9.4,
+    "stress_level": 95.17,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 15,
+    "workload": 9.68,
+    "stress_level": 83.42,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 15,
+    "workload": 6.36,
+    "stress_level": 56.57,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 15,
+    "workload": 4.17,
+    "stress_level": 72.19,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 15,
+    "workload": 5.31,
+    "stress_level": 35.15,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 15,
+    "workload": 7.89,
+    "stress_level": 89.13,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 15,
+    "workload": 5.28,
+    "stress_level": 64.88,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 15,
+    "workload": 9.74,
+    "stress_level": 97.16,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 16,
+    "workload": 7.63,
+    "stress_level": 86.63,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 16,
+    "workload": 9.65,
+    "stress_level": 61.39,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 16,
+    "workload": 8.18,
+    "stress_level": 40.15,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 16,
+    "workload": 5.99,
+    "stress_level": 40.77,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 16,
+    "workload": 4.74,
+    "stress_level": 84.02,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 16,
+    "workload": 9.52,
+    "stress_level": 90.15,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 16,
+    "workload": 9.38,
+    "stress_level": 50.61,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 16,
+    "workload": 6.49,
+    "stress_level": 34.34,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 16,
+    "workload": 7.64,
+    "stress_level": 64.37,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 16,
+    "workload": 4.81,
+    "stress_level": 60.1,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 17,
+    "workload": 4.93,
+    "stress_level": 77.07,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 17,
+    "workload": 4.05,
+    "stress_level": 49.05,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 17,
+    "workload": 5.58,
+    "stress_level": 93.75,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 17,
+    "workload": 9.95,
+    "stress_level": 92.65,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 17,
+    "workload": 9.16,
+    "stress_level": 81.19,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 17,
+    "workload": 4.52,
+    "stress_level": 62.21,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 17,
+    "workload": 4.45,
+    "stress_level": 65.62,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 17,
+    "workload": 7.23,
+    "stress_level": 96.27,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 17,
+    "workload": 8.41,
+    "stress_level": 97.03,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 17,
+    "workload": 4.91,
+    "stress_level": 94.69,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 18,
+    "workload": 8.22,
+    "stress_level": 43.0,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 18,
+    "workload": 4.66,
+    "stress_level": 66.93,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 18,
+    "workload": 6.18,
+    "stress_level": 74.03,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 18,
+    "workload": 6.6,
+    "stress_level": 83.37,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 18,
+    "workload": 7.35,
+    "stress_level": 65.29,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 18,
+    "workload": 8.79,
+    "stress_level": 68.63,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 18,
+    "workload": 8.5,
+    "stress_level": 49.24,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 18,
+    "workload": 4.27,
+    "stress_level": 80.14,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 18,
+    "workload": 8.43,
+    "stress_level": 73.33,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 18,
+    "workload": 5.68,
+    "stress_level": 71.01,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 19,
+    "workload": 8.89,
+    "stress_level": 64.1,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 19,
+    "workload": 9.96,
+    "stress_level": 36.4,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 19,
+    "workload": 8.97,
+    "stress_level": 56.79,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 19,
+    "workload": 8.6,
+    "stress_level": 98.87,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 19,
+    "workload": 7.48,
+    "stress_level": 91.59,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 19,
+    "workload": 7.85,
+    "stress_level": 96.66,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 19,
+    "workload": 8.7,
+    "stress_level": 87.41,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 19,
+    "workload": 4.58,
+    "stress_level": 90.34,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 19,
+    "workload": 9.43,
+    "stress_level": 39.42,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 19,
+    "workload": 8.92,
+    "stress_level": 30.1,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 20,
+    "workload": 4.53,
+    "stress_level": 76.21,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 20,
+    "workload": 6.97,
+    "stress_level": 43.74,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 20,
+    "workload": 7.5,
+    "stress_level": 42.87,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 20,
+    "workload": 4.55,
+    "stress_level": 82.37,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 20,
+    "workload": 5.26,
+    "stress_level": 68.07,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 20,
+    "workload": 4.11,
+    "stress_level": 63.89,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 20,
+    "workload": 6.92,
+    "stress_level": 52.2,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 20,
+    "workload": 9.57,
+    "stress_level": 82.6,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 20,
+    "workload": 6.57,
+    "stress_level": 99.75,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 20,
+    "workload": 9.16,
+    "stress_level": 66.81,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 21,
+    "workload": 6.37,
+    "stress_level": 70.75,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 21,
+    "workload": 4.86,
+    "stress_level": 42.55,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 21,
+    "workload": 5.73,
+    "stress_level": 87.01,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 21,
+    "workload": 5.94,
+    "stress_level": 35.3,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 21,
+    "workload": 7.51,
+    "stress_level": 84.61,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 21,
+    "workload": 6.67,
+    "stress_level": 30.79,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 21,
+    "workload": 5.88,
+    "stress_level": 53.56,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 21,
+    "workload": 9.18,
+    "stress_level": 69.91,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 21,
+    "workload": 4.31,
+    "stress_level": 67.43,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 21,
+    "workload": 6.37,
+    "stress_level": 71.31,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 22,
+    "workload": 4.28,
+    "stress_level": 96.54,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 22,
+    "workload": 4.58,
+    "stress_level": 52.06,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 22,
+    "workload": 5.53,
+    "stress_level": 94.34,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 22,
+    "workload": 4.96,
+    "stress_level": 36.45,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 22,
+    "workload": 9.87,
+    "stress_level": 53.46,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 22,
+    "workload": 5.61,
+    "stress_level": 33.59,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 22,
+    "workload": 6.45,
+    "stress_level": 40.31,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 22,
+    "workload": 7.69,
+    "stress_level": 92.1,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 22,
+    "workload": 6.77,
+    "stress_level": 71.85,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 22,
+    "workload": 8.63,
+    "stress_level": 45.68,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 23,
+    "workload": 6.0,
+    "stress_level": 84.46,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 23,
+    "workload": 6.67,
+    "stress_level": 96.86,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 23,
+    "workload": 5.36,
+    "stress_level": 86.78,
+    "tasks_completed": 2,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 23,
+    "workload": 5.7,
+    "stress_level": 59.87,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 23,
+    "workload": 8.28,
+    "stress_level": 41.61,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 23,
+    "workload": 8.89,
+    "stress_level": 56.06,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 23,
+    "workload": 4.51,
+    "stress_level": 76.62,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 23,
+    "workload": 9.62,
+    "stress_level": 70.93,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 23,
+    "workload": 7.47,
+    "stress_level": 60.68,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 23,
+    "workload": 4.85,
+    "stress_level": 39.67,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 24,
+    "workload": 7.31,
+    "stress_level": 98.64,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 24,
+    "workload": 9.85,
+    "stress_level": 41.02,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 24,
+    "workload": 9.05,
+    "stress_level": 34.66,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 24,
+    "workload": 5.52,
+    "stress_level": 63.41,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 24,
+    "workload": 6.39,
+    "stress_level": 36.49,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 24,
+    "workload": 7.92,
+    "stress_level": 72.96,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 24,
+    "workload": 9.26,
+    "stress_level": 98.05,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 24,
+    "workload": 4.54,
+    "stress_level": 51.73,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 24,
+    "workload": 8.87,
+    "stress_level": 31.6,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 24,
+    "workload": 6.98,
+    "stress_level": 83.98,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 25,
+    "workload": 4.06,
+    "stress_level": 41.97,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 25,
+    "workload": 5.95,
+    "stress_level": 31.93,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 25,
+    "workload": 8.78,
+    "stress_level": 37.4,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 25,
+    "workload": 4.31,
+    "stress_level": 47.45,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 25,
+    "workload": 5.84,
+    "stress_level": 90.95,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 25,
+    "workload": 5.75,
+    "stress_level": 42.63,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 25,
+    "workload": 5.26,
+    "stress_level": 40.08,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 25,
+    "workload": 6.35,
+    "stress_level": 36.39,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 25,
+    "workload": 6.44,
+    "stress_level": 31.67,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 25,
+    "workload": 4.86,
+    "stress_level": 83.73,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 26,
+    "workload": 9.87,
+    "stress_level": 31.83,
+    "tasks_completed": 1,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 26,
+    "workload": 6.26,
+    "stress_level": 92.31,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 26,
+    "workload": 8.01,
+    "stress_level": 75.75,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 26,
+    "workload": 5.08,
+    "stress_level": 61.62,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 26,
+    "workload": 7.96,
+    "stress_level": 90.0,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 26,
+    "workload": 8.69,
+    "stress_level": 47.09,
+    "tasks_completed": 3,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 26,
+    "workload": 7.28,
+    "stress_level": 54.91,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 26,
+    "workload": 8.54,
+    "stress_level": 86.52,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 26,
+    "workload": 4.44,
+    "stress_level": 85.97,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 26,
+    "workload": 7.17,
+    "stress_level": 83.0,
+    "tasks_completed": 2,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 27,
+    "workload": 9.51,
+    "stress_level": 75.23,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 27,
+    "workload": 7.73,
+    "stress_level": 41.19,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 27,
+    "workload": 4.35,
+    "stress_level": 84.85,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 27,
+    "workload": 8.27,
+    "stress_level": 83.6,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 27,
+    "workload": 8.72,
+    "stress_level": 54.55,
+    "tasks_completed": 5,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 27,
+    "workload": 9.09,
+    "stress_level": 65.24,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 27,
+    "workload": 4.24,
+    "stress_level": 84.08,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 27,
+    "workload": 8.67,
+    "stress_level": 41.05,
+    "tasks_completed": 6,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 27,
+    "workload": 4.95,
+    "stress_level": 62.22,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 27,
+    "workload": 8.42,
+    "stress_level": 84.44,
+    "tasks_completed": 5,
+    "coping_strategy": "chat",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 28,
+    "workload": 4.04,
+    "stress_level": 57.18,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 28,
+    "workload": 6.24,
+    "stress_level": 31.41,
+    "tasks_completed": 1,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 28,
+    "workload": 6.52,
+    "stress_level": 79.66,
+    "tasks_completed": 4,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 28,
+    "workload": 6.22,
+    "stress_level": 99.21,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 28,
+    "workload": 9.17,
+    "stress_level": 64.2,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 28,
+    "workload": 5.85,
+    "stress_level": 43.35,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 28,
+    "workload": 6.63,
+    "stress_level": 52.99,
+    "tasks_completed": 2,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 28,
+    "workload": 6.08,
+    "stress_level": 90.37,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 28,
+    "workload": 7.5,
+    "stress_level": 39.37,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 28,
+    "workload": 7.51,
+    "stress_level": 76.09,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 29,
+    "workload": 6.57,
+    "stress_level": 89.93,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 29,
+    "workload": 6.59,
+    "stress_level": 35.66,
+    "tasks_completed": 5,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 29,
+    "workload": 4.23,
+    "stress_level": 72.28,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 29,
+    "workload": 8.38,
+    "stress_level": 64.23,
+    "tasks_completed": 3,
+    "coping_strategy": "pto",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 29,
+    "workload": 7.09,
+    "stress_level": 81.66,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 29,
+    "workload": 5.59,
+    "stress_level": 87.07,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 29,
+    "workload": 6.14,
+    "stress_level": 84.85,
+    "tasks_completed": 6,
+    "coping_strategy": "pto",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 29,
+    "workload": 5.03,
+    "stress_level": 85.4,
+    "tasks_completed": 4,
+    "coping_strategy": "pto",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 29,
+    "workload": 7.87,
+    "stress_level": 43.85,
+    "tasks_completed": 3,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 29,
+    "workload": 9.1,
+    "stress_level": 32.56,
+    "tasks_completed": 4,
+    "coping_strategy": "chat",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_01",
+    "day": 30,
+    "workload": 5.2,
+    "stress_level": 43.75,
+    "tasks_completed": 2,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_02",
+    "day": 30,
+    "workload": 7.95,
+    "stress_level": 45.65,
+    "tasks_completed": 1,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_03",
+    "day": 30,
+    "workload": 6.21,
+    "stress_level": 62.08,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_04",
+    "day": 30,
+    "workload": 5.14,
+    "stress_level": 59.86,
+    "tasks_completed": 4,
+    "coping_strategy": "none",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_05",
+    "day": 30,
+    "workload": 8.97,
+    "stress_level": 77.66,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_06",
+    "day": 30,
+    "workload": 6.98,
+    "stress_level": 54.22,
+    "tasks_completed": 5,
+    "coping_strategy": "break",
+    "state": "productive"
+  },
+  {
+    "agent_id": "emp_07",
+    "day": 30,
+    "workload": 4.86,
+    "stress_level": 71.31,
+    "tasks_completed": 6,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_08",
+    "day": 30,
+    "workload": 9.26,
+    "stress_level": 94.1,
+    "tasks_completed": 6,
+    "coping_strategy": "chat",
+    "state": "burnout"
+  },
+  {
+    "agent_id": "emp_09",
+    "day": 30,
+    "workload": 8.58,
+    "stress_level": 83.91,
+    "tasks_completed": 1,
+    "coping_strategy": "none",
+    "state": "stressed"
+  },
+  {
+    "agent_id": "emp_10",
+    "day": 30,
+    "workload": 5.9,
+    "stress_level": 57.83,
+    "tasks_completed": 3,
+    "coping_strategy": "chat",
+    "state": "productive"
+  }
+]
