@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, confusion_matrix
+
+
+# In[2]:
+
+
+df = pd.read_csv("/mnt/data/training_data.csv")
+df.head()
+
+
+# In[3]:
+
+
+df = pd.read_csv("training_data.csv")
+df.head()
+
+
+# In[4]:
+
+
+df = pd.read_csv("training_data.csv")
+df.head()
+
+
+# In[5]:
+
+
+features = ["workload", "stress_level", "tasks_completed"]
+x = df[features]
+y = df["burned_out"]
+
+
+# In[6]:
+
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+
+
+# In[7]:
+
+
+model = LogisticRegression()
+model.fit(x_train, y_train)
+y_pred = model.predict(x_test)
+
+
+# In[8]:
+
+
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+
+
+# In[9]:
+
+
+sns.boxplot(x="burned_out", y="stress_level", data=df)
+plt.title("Stress Level vs Burnout")
+plt.show()
+
+
+# In[ ]:
+
+
+
+
