@@ -119,9 +119,9 @@ This project simulates a dynamic workplace using agent-based modeling. Employee 
 ---
 
 ## 👨‍💻 Author Credits
-- **Simulation:** Cornell  
+- **Simulation:** Cornell Stewart
 - **Machine Learning:** Jeremiah Tanner  
-- **Frontend & DevOps:** Kzaiah
+- **Frontend & DevOps:** Kzaiah Hall
 
 ---
 
