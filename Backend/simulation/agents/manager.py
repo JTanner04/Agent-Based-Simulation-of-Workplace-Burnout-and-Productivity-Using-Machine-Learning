@@ -5,6 +5,8 @@ Defines the manager agent, which gives tasks to employees on each step.
 
 """
 
+#TODO: Implement humanziation features like leadership style and communication skills.
+
 import random
 from mesa import Agent
 from simulation.agents.employee import EmployeeAgent
