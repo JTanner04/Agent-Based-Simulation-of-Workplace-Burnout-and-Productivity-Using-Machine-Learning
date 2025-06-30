@@ -4,7 +4,6 @@ This folder contains all files related to the machine learning pipeline for pred
 
 ## 📁 Contents
 
-- `ml_pipeline.ipynb` – Jupyter notebook for EDA, feature engineering, model training, and evaluation
 - `ml_pipeline.py` – Script version of the notebook for future integration
 - `simulation_output.json` – Synthetic simulation data (agent stress, workload, etc.)
 - `training_data.csv` – Flattened training dataset generated from the JSON
