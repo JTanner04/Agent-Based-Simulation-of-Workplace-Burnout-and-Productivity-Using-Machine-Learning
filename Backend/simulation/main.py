@@ -1,36 +1,50 @@
+"""
+main.py
+
+houses the main functions of the WorkplaceModel, calculations and (optionally) postgreSQL db
+
+"""
+
+import os
+import psycopg2
+from datetime import datetime
 from mesa import Model
 from mesa.time import RandomActivation
 from mesa.datacollection import DataCollector
-import os
-from pymongo import MongoClient
-from datetime import datetime
 
 from simulation.agents.employee import EmployeeAgent
 from simulation.agents.manager import ManagerAgent
 
-# MongoDB setup
-MONGO_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
-client = MongoClient(MONGO_URI)
-db = client["workplace_sim"]
-metrics_col = db["metrics"]
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/workplace_sim")
 
 class WorkplaceModel(Model):
-    """A workplace model with employees and a manager."""
-    def __init__(self, num_employees=10):
+    """Agent-based model of workplace stress and productivity.
+
+    Employees gain stress based on the tasks set by the manager and 
+    productivity reduces as a result. THe results are collected and then 
+    can be sent to PostgreSQL database.
+
+    """
+    def __init__(self, num_employees=10) -> None:
+        """Create a new Model
+        
+        Args:
+            num_employees (int): Number of EmployeeAgent instances to intialize
+        """
         super().__init__()
         self.num_employees = num_employees
         self.schedule = RandomActivation(self)
 
-        # Instantiate manager
+        # Add a manager
         manager = ManagerAgent(0, self)
         self.schedule.add(manager)
 
-        # Instantiate employee agents
+        # Create Employees
         for i in range(1, num_employees + 1):
             employee = EmployeeAgent(i, self)
             self.schedule.add(employee)
 
-        # Set up data collector
+
         self.datacollector = DataCollector(
             model_reporters={
                 "Avg_Stress": lambda m: m.compute_avg_stress(),
@@ -38,21 +52,39 @@ class WorkplaceModel(Model):
             }
         )
 
-    def compute_avg_stress(self):
+    def compute_avg_stress(self) -> float:
+        """Computes the average stress across all employees
+
+        Returns:
+            float: Mean stress level, or 0.0 if no stress data available
+        """
         stresses = [agent.stress for agent in self.schedule.agents if hasattr(agent, 'stress')]
         return sum(stresses) / len(stresses) if stresses else 0
 
-    def compute_avg_productivity(self):
+    def compute_avg_productivity(self) -> float:
+        """Computes the average productivity across all employees
+
+        Returns:
+            float: Mean productivity level, or 0.0 if no productivity data available
+        """
         products = [agent.productivity for agent in self.schedule.agents if hasattr(agent, 'productivity')]
         return sum(products) / len(products) if products else 0
 
-    def step(self):
-        """Advance the model by one step."""
+    def step(self) -> None:
+        """Advance by one step, collect data and then activating agents"""
         self.datacollector.collect(self)
         self.schedule.step()
 
-    def run_model(self, n_steps=50, to_mongo=True):
-        """Run the model for n_steps, export CSV/JSON, and optionally push to MongoDB."""
+    def run_model(self, n_steps=50, to_db=True) -> None:
+        """Runs the simulation for a fixed number of steps and exports results
+
+        Args:
+            n_steps (int): Number of simulation steps to execute.
+            to_db (bool): If True, send the collected data into PostgreSQL
+
+        """
+
+        # Run the steps
         for _ in range(n_steps):
             self.step()
 
@@ -64,20 +96,29 @@ class WorkplaceModel(Model):
         json_path = os.path.join(output_dir, "metrics.json")
         df.to_csv(csv_path)
         df.to_json(json_path)
-        print(f"Saved CSV to {csv_path} and JSON to {json_path}")
 
-        # Insert into MongoDB
-        if to_mongo:
+
+        if to_db:
             records = df.reset_index().rename(columns={"index": "step"}).to_dict("records")
-            run_id = datetime.utcnow().isoformat()
-            for rec in records:
-                rec["run_id"] = run_id
-            metrics_col.insert_many(records)
-            print(f"Inserted {len(records)} records into MongoDB collection 'metrics'")
-
+            run_id = datetime.utcnow()
+            conn = psycopg2.connect(DATABASE_URL)
+            cur = conn.cursor()
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS metrics (
+                    run_id TIMESTAMP,
+                    step INTEGER,
+                    Avg_Stress REAL,
+                    Avg_Productivity REAL
+                )
+            """)
+            insert_query = "INSERT INTO metrics (run_id, step, Avg_Stress, Avg_Productivity) VALUES (%s, %s, %s, %s)"
+            data_to_insert = [(run_id, rec["step"], rec["Avg_Stress"], rec["Avg_Productivity"]) for rec in records]
+            cur.executemany(insert_query, data_to_insert)
+            conn.commit()
+            cur.close()
+            conn.close()
 
 if __name__ == "__main__":
-    # Run a default simulation
     model = WorkplaceModel()
     model.run_model()
     print("Simulation completed.")
