@@ -95,5 +95,8 @@ After execution:
 
 This README exclusively documents the backend setup and usage.
 
+
+## Author
+Created by [Cornell Stewart](https://github.com/cornell-s)
 ```
 ```
