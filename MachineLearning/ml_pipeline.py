@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # In[1]:
 
 
@@ -10,12 +7,13 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
+import numpy as np
 
 
 # In[2]:
 
 
-df = pd.read_csv("/mnt/data/training_data.csv")
+df = pd.read_csv("training_data.csv")
 df.head()
 
 
@@ -70,8 +68,13 @@ plt.title("Stress Level vs Burnout")
 plt.show()
 
 
-# In[ ]:
+# In[10]:
+y_pred = model.predict(x_test)
 
+accuracy = accuracy_score(y_test, y_pred)
+tn, fp, fn, tp = confusion_matrix(y_test, y_pred).ravel()
 
-
-
+print(f"Accuracy: {accuracy * 100:.2f}%")
+print(f"True Positives: {tp}")
+print(f"False Negatives: {fn}")
+# %%
