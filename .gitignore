@@ -1,0 +1,22 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual env
+venv/
+.env/
+
+# Exports and data outputs
+exports/
+*.csv
+*.json
+
+# IDE files
+.vscode/
+*.suo
+*.user
+
+# macOS
+.DS_Store
