@@ -12,8 +12,8 @@ from mesa import Model
 from mesa.time import RandomActivation
 from mesa.datacollection import DataCollector
 
-from simulation.agents.employee import EmployeeAgent
-from simulation.agents.manager import ManagerAgent
+from agents.employee import EmployeeAgent
+from agents.manager import ManagerAgent
 
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/workplace_sim")
 

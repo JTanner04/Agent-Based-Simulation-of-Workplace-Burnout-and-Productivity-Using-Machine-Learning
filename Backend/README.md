@@ -38,7 +38,7 @@ The backend handles simulation logic, data collection, and optional persistence 
 3. Install backend dependencies:
 
    ```bash
-   pip install mesa psycopg2-binary
+   pip install mesa==2.3.2 psycopg2-binary
    ```
 
 ## Configuration

@@ -9,7 +9,7 @@ Defines the manager agent, which gives tasks to employees on each step.
 
 import random
 from mesa import Agent
-from simulation.agents.employee import EmployeeAgent
+from agents.employee import EmployeeAgent
 
 
 class ManagerAgent(Agent):
