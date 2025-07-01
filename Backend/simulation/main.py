@@ -34,7 +34,7 @@ class WorkplaceModel(Model):
         super().__init__()
         self.num_employees = num_employees
         self.schedule = RandomActivation(self)
-
+        self.current_step = 0
         # Add a manager
         manager = ManagerAgent(0, self)
         self.schedule.add(manager)
@@ -59,7 +59,7 @@ class WorkplaceModel(Model):
             float: Mean stress level, or 0.0 if no stress data available
         """
         stresses = [agent.stress for agent in self.schedule.agents if hasattr(agent, 'stress')]
-        return sum(stresses) / len(stresses) if stresses else 0
+        return sum(stresses) / len(stresses) if stresses else 0.0
 
     def compute_avg_productivity(self) -> float:
         """Computes the average productivity across all employees
@@ -68,12 +68,13 @@ class WorkplaceModel(Model):
             float: Mean productivity level, or 0.0 if no productivity data available
         """
         products = [agent.productivity for agent in self.schedule.agents if hasattr(agent, 'productivity')]
-        return sum(products) / len(products) if products else 0
+        return sum(products) / len(products) if products else 0.0
 
     def step(self) -> None:
         """Advance by one step, collect data and then activating agents"""
         self.datacollector.collect(self)
         self.schedule.step()
+        self.current_step += 1
 
     def run_model(self, n_steps=50, to_db=True) -> None:
         """Runs the simulation for a fixed number of steps and exports results
