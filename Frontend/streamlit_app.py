@@ -48,7 +48,7 @@ if run_button:
     with st.spinner("Running simulation..."):
         from subprocess import run
         cmd = [
-            "python", "scheduler.py",
+            "python3", "scheduler.py",
             "--steps", str(steps)
         ]
         if not run_db:
