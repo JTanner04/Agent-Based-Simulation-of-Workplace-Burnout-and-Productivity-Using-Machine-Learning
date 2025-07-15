@@ -88,7 +88,7 @@ This project simulates a dynamic workplace using agent-based modeling. Employee 
 |--------|-------------------|-------------------------------|-----------|
 | 🏁 Sprint 1 | Jun 19 – Jun 30 | Core Simulation MVP            | Agent logic, data export, DB storage |
 | 🔄 Sprint 2 | Jul 1 – Jul 12  | Behavioral Complexity + UI     | Coping logic, personalities, UI toggle controls |
-| 🧠 Sprint 3 | Jul 13 – Jul 24 | ML + Policy Tuning             | Train classifier, (optional) RL agent, scenario testing |
+| 🧠 Sprint 3 | Jul 13 – Jul 24 | ML + Scenario Tuning             | Train classifier, (optional) RL agent, scenario testing |
 | 🚀 Sprint 4 | Jul 25 – Aug 8  | Final Polish & Deployment      | Testing, Docker, deployment, polish, reporting |
 
 ---
@@ -107,6 +107,13 @@ This project simulates a dynamic workplace using agent-based modeling. Employee 
 - Interactive dashboard toggles for HR policies
 - Save/load PostgreSQL runs
 - First ML classifier + daily burnout risk visualizations
+
+#### Sprint 3: ML + Scenario Tuning
+- Finalized Random Forest burnout classifier with engineered features
+- Exported daily stress snapshots and burnout risk probabilities
+- Visualized model predictions (feature importance, burnout risk curves, agent-level risk histograms)
+- Integrated ML pipeline with live simulation outputs for future dashboard embedding
+- Prepared data for scenario tuning (e.g., 4-day week vs full-time)
 
 ---
 
