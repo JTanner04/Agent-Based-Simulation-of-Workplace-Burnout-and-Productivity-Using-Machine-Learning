@@ -1,4 +1,3 @@
-### File: scheduler.py
 
 import argparse
 from main import WorkplaceModel

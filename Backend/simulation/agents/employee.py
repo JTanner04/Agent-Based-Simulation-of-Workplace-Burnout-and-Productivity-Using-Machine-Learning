@@ -3,8 +3,6 @@ employee.py
 
 Defines the employee agent, which tracks stress & productivity.
 """
-
-#TODO: Integrate human features like resilience, coping mechanisms, and social support.
 import random
 from mesa import Agent
 
