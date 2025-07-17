@@ -29,49 +29,32 @@ class EmployeeAgent(Agent):
 
 
     def step(self):
-        """Apply stress based on task, adjust productivity accordingly, and then clears tasks"""
-
-        # PTO Handling
+        # determine day index for scenarios
+        day = (self.model.current_step // self.model.work_hours) % 7
+        # scenario: four-day week
+        if self.model.scenario == 'four_day_week' and day >= 4:
+            self.stress = max(0.0, self.stress - self.resilience*2)
+            return
+        # PTO
         if self.pto_left > 0:
-            self.stress = max(0.0, self.stress - self.resilience * 2)
+            self.stress = max(0.0, self.stress - self.resilience*2)
             self.pto_left -= 1
-            return  # Skip stress and productivity adjustment if on PTO
-        
-        # Scheduled Breaks (Every 8-step cycle)
-        if self.model.current_step % 8 == 4:
-            self.stress = max(0.0, self.stress - self.resilience * 0.5)
-        
-        # Workload Stress Handling
-        workload = len(self.task_queue)
-        self.stress += workload * (1 - self.resilience)  # Stress increases with workload and resilience factor
-
-        # Ventening: pair with random sociable employee
-        peers = [agent for agent in self.model.schedule.agents if isinstance(agent, EmployeeAgent) and agent.unique_id != self.unique_id]
-        if peers and self.sociability > 0.5:
-            peer = random.choice(peers)
-            relief = min(self.stress, peer.sociability * 0.1)
-            self.stress = max(0.0, self.stress - relief)
-            peer.stress = max(0.0, peer.stress - relief)
-        
-        # Mentorship: pair with a random employee for advice (10 steps)
-        if self.model.current_step % 10 == 0 and peers:
-            mentors = [agent for agent in peers if agent.stress < self.stress and agent.unique_id != self.unique_id]
-            if mentors:
-                mentor = min(mentors, key=lambda x: x.stress)
-                self.stress = max(0.0, self.stress - mentor.resilience)
-                mentor.productivity = min(1.0, mentor.productivity + 0.05)  # Mentor's productivity increases slightly
-        
-        # Increase fatigue
-        self.fatigue += workload * (1 - self.work_life_balance)
-
-        # Sleep recovery (24 steps)
-        if self.model.current_step % 24 >= 18:
-            self.sleep_level = min(1.0, self.sleep_level + 0.2)  # Sleep level recovers at night
-            self.fatigue = max(0.0, self.fatigue - 0.5)  # Fatigue decreases slightly at night
-
-        # Stress reduction from sleep
+            return
+        # scheduled break at half workday
+        if self.model.current_step % self.model.work_hours == self.model.work_hours//2:
+            self.stress = max(0.0, self.stress - self.resilience*0.5)
+        # accumulate stress
+        self.stress += len(self.task_queue)*(1-self.resilience)
+        # venting interact
+        if self.sociability > 0.5:
+            peers = [a for a in self.model.schedule.agents if isinstance(a, EmployeeAgent) and a != self]
+            if peers:
+                buddy = random.choice(peers)
+                relief = buddy.sociability * 0.1
+                self.stress = max(0.0, self.stress - relief)
+                buddy.stress = max(0.0, buddy.stress - relief)
+        # recovery from sleep
         self.stress = max(0.0, self.stress - self.sleep_level * 0.1)
-
-        # Productivity adjustment based on stress and fatigue
-        self.productivity = max(0.0, 1.0 - self.stress / 10.0) #should it be 1 - self.stress, or just self.stress / 10.0?
+        # update productivity
+        self.productivity = max(0.0, 1 - self.stress / 10)
         self.task_queue.clear()

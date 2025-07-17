@@ -25,7 +25,7 @@ class WorkplaceModel(Model):
     can be sent to PostgreSQL database.
 
     """
-    def __init__(self, num_employees=10) -> None:
+    def __init__(self, num_employees: int = 10, work_hours: int = 8, scenario: str = None) -> None:
         """Create a new Model
         
         Args:
@@ -33,6 +33,8 @@ class WorkplaceModel(Model):
         """
         super().__init__()
         self.num_employees = num_employees
+        self.work_hours = work_hours
+        self.scenario = scenario
         self.schedule = RandomActivation(self)
         self.current_step = 0
         # Add a manager
@@ -84,42 +86,43 @@ class WorkplaceModel(Model):
             to_db (bool): If True, send the collected data into PostgreSQL
 
         """
+        results = []
+        # single or batch run
+        df = None
+        for run_idx in range(1):
+            for _ in range(n_steps):
+                self.step()
+            df = self.datacollector.get_model_vars_dataframe().reset_index().rename(columns={'index': 'step'})
+            if to_db:
+                self._write_db(df)
+            results.append(df)
+        return results[0]
+def _write_db(self, df):
+    conn = psycopg2.connect(DATABASE_URL)
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS metrics (
+            run_id TIMESTAMP,
+            step INTEGER,
+            Avg_Stress REAL,
+            Avg_Productivity REAL
+        )""")
+    run_time = datetime.utcnow()
+    records = [(run_time, int(r['step']), float(r['Avg_Stress']), float(r['Avg_Productivity'])) for _,r in df.iterrows()]
+    cur.executemany(
+        "INSERT INTO metrics (run_id, step, Avg_Stress, Avg_Productivity) VALUES (%s,%s,%s,%s)",
+        records
+    )
+    conn.commit()
+    cur.close()
+    conn.close()
 
-        # Run the steps
-        for _ in range(n_steps):
-            self.step()
-
-        # Export to files
-        df = self.datacollector.get_model_vars_dataframe()
-        output_dir = os.path.join(os.getcwd(), "exports")
-        os.makedirs(output_dir, exist_ok=True)
-        csv_path = os.path.join(output_dir, "metrics.csv")
-        json_path = os.path.join(output_dir, "metrics.json")
-        df.to_csv(csv_path)
-        df.to_json(json_path)
-
-
-        if to_db:
-            records = df.reset_index().rename(columns={"index": "step"}).to_dict("records")
-            run_id = datetime.utcnow()
-            conn = psycopg2.connect(DATABASE_URL)
-            cur = conn.cursor()
-            cur.execute("""
-                CREATE TABLE IF NOT EXISTS metrics (
-                    run_id TIMESTAMP,
-                    step INTEGER,
-                    Avg_Stress REAL,
-                    Avg_Productivity REAL
-                )
-            """)
-            insert_query = "INSERT INTO metrics (run_id, step, Avg_Stress, Avg_Productivity) VALUES (%s, %s, %s, %s)"
-            data_to_insert = [(run_id, rec["step"], rec["Avg_Stress"], rec["Avg_Productivity"]) for rec in records]
-            cur.executemany(insert_query, data_to_insert)
-            conn.commit()
-            cur.close()
-            conn.close()
-
-if __name__ == "__main__":
-    model = WorkplaceModel()
-    model.run_model()
-    print("Simulation completed.")
+if __name__ == 'main':
+    from scheduler import args
+    model = WorkplaceModel(
+    num_employees=args.team_size,
+    work_hours=args.work_hours,
+    scenario=args.scenario
+    )
+    model.run_model(n_steps=args.steps, to_db=not args.no_db)
+    print(f"Simulation completed for {args.steps} steps.")
