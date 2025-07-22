@@ -20,3 +20,6 @@ exports/
 
 # macOS
 .DS_Store
+
+# Protect Firebase credentials
+joiapp.json
