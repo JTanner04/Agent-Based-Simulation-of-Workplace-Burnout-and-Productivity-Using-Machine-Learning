@@ -4,9 +4,9 @@
 **Agent-Based Simulation of Workplace Burnout and Productivity Using Machine Learning**
 
 ## 🚦 Project Status  
-- ✅ **Sprint 1:** Core Simulation MVP – *Complete*  
-- ✅ **Sprint 2:** Behavioral Complexity + UI MVP – *Complete*
-- 🔁 **Sprint 3:** ML Model + Scenario Tuning – *In Progress*
+-  **Sprint 1:** Core Simulation MVP – *Complete*  
+-  **Sprint 2:** Behavioral Complexity + UI MVP – *Complete*
+-  **Sprint 3:** ML Model + Scenario Tuning – *Complete*
 
 ---
 
