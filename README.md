@@ -116,6 +116,13 @@ This project simulates a dynamic workplace using agent-based modeling. Employee 
 - Integrated ML pipeline with live simulation outputs for future dashboard embedding
 - Prepared data for scenario tuning (e.g., 4-day week vs full-time)
 
+### Sprint 4: Final Polish & Deployment
+- Integrated final burnout model into Streamlit dashboard  
+- Visualized predictions in real time with risk scores and curves  
+- Saved trained model (`burnout_model.pkl`) for app embedding  
+- Exported daily prediction results for scenario comparison  
+- Prepared for production deployment and final reporting  
+
 ---
 
 ## 📦 Final Deliverables (Due August 8, 2025)
