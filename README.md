@@ -7,6 +7,7 @@
 -  **Sprint 1:** Core Simulation MVP – *Complete*  
 -  **Sprint 2:** Behavioral Complexity + UI MVP – *Complete*
 -  **Sprint 3:** ML Model + Scenario Tuning – *Complete*
+-  **Sprint 4:** Final Polish & Deployment – *Complete*
 
 ---
 
